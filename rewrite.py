@@ -1,6 +1,5 @@
-
-    import json, os, pathlib, yaml, time, datetime as dt
-    import openai
+import json, os, pathlib, yaml, time, datetime as dt
+import openai
 
     BASE_DIR = pathlib.Path(__file__).parent
     DATA_DIR = BASE_DIR / 'data'
