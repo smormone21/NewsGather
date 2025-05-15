@@ -1,0 +1,17 @@
+languages:
+- en
+- it
+- es
+- fr
+- de
+default_language: en
+sources:
+- https://www.reuters.com/world/rss
+- https://feeds.bbci.co.uk/news/world/rss.xml
+- https://www.ansa.it/sito/ansait_rss.xml
+rewrite:
+  max_tokens: 700
+  target_readability: B1
+site:
+  base_url: https://newsgather.example.com
+  generator: hugo
